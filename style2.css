@@ -1,0 +1,571 @@
+body {
+    font-family: "Inconsolata", monospace;
+    color: #0d1e2d;
+
+  }
+  
+  a {
+    color: #777;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .section {
+    padding: 7rem 0;
+  }
+  
+  .filters a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    font-family: nunito sans;
+    font-size: 16px;
+    left: -1;
+  }
+  
+  .filters a:hover, .filters a:focus, .filters a:active {
+    text-decoration: none;
+  }
+  
+  .filters a:hover:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    height: 1px;
+    background-color: #000;
+  }
+  
+  .filters a.active {
+    color: #000;
+  }
+  
+  .filters a.active:before {
+    content: "";
+    position: absolute;
+    padding-left: 5px;
+    right: 10px;
+    bottom: 0;
+    height: 1px;
+    background-color: #000;
+  }
+  
+  .custom-navbar .navbar-brand {
+    font-size: 1.7rem;nav
+    font-family: Montserrat;
+  
+  }
+  .button{
+  
+  color:black;
+      background:white;
+      padding: 7px 22px;
+      margin: 0 0 0 15px;
+      border-radius: 8px;
+      border: 2px white;
+      transition: all ease-in-out 0.3s;
+      font-size: 13px;
+      white-space: nowrap;
+      z-index: 2;
+  }
+  .help
+  {
+    padding-top:40px;
+    font-family:sans-serif;
+    font-size:30px;
+    padding-left: 115px;
+    font-weight: bold;
+  }
+  .tulisan{
+    padding-left: 115px;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-top:-20px;
+  }
+  .buttona{
+    color:white;
+      background: #744FC6;
+      padding: 9px 15px;
+      margin: 0 0 0 15px;
+      border-radius: 8px;
+      border: 2px  #744FC6;
+      font-family: sans-serif;
+      margin-left: 115px;
+  }
+  .buttonb{
+    color:#744fc6;
+      background:#FFFFFF;
+      padding: 7px 22px;
+      margin: 0 0 0 15px;
+      border-radius: 8px;
+      border:#744fc6;
+      font-family: sans-serif;
+      border: 1px solid #744FC6;
+      box-sizing: border-box;
+  }
+  .gambarpojok1
+{
+position: absolute;
+left: -0.4%;
+right: -0.1%;
+top: 2.3%;
+bottom: -32.8%;
+width: 600px;
+height: 500px;
+
+background: linear-gradient(180deg, rgba(224, 196, 252, 0.9) 0%, rgba(144, 198, 253, 0.9) 100%);
+border-radius: 30px;
+transform: rotate(-20.43deg);
+margin-left: 1050px;
+margin-top: -200px;
+}
+.gamabar3{
+  position: relative;
+  padding-top: -1000px;
+  margin-top: -300px;
+  width: 400px;
+  height: 200px;
+}
+.icon15{
+  margin-left: 700px;
+  margin-top: 170px;
+}
+.tulisan1
+{
+  font-size: 30px;
+  font-family: nunito sans;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-left: 630px;
+}
+.boxedku
+{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    left: 580px;
+    top: 580px;
+    
+    background:#FFFFFF;
+    box-shadow: 0px 9px 20px rgba(167, 167, 167, 0.4);
+    border-radius: 16px;
+    
+}
+.rt3
+{
+
+position: absolute;
+width: 169.72px;
+height: 171.41px;
+left: 82.42px;
+top: 100.96px;
+
+opacity: 0.15;
+border-radius: 30px;
+transform: matrix(-0.88, 0.47, 0.47, 0.88, 0, 0);
+
+}
+.text2a{
+  margin-left: 100px;
+  margin-top: -10px;
+  font-size: 12;
+  font-family:nunito sans;
+  
+}
+.kotakpojokku1{
+  margin-left: 350;
+  margin-top: -450;
+  z-index: -2;
+}
+.boxa{
+position: absolute;
+width: 2485px;
+height: 600px;
+left: 0px;
+top: 0px;
+background: linear-gradient(180deg, #CAC4FC 0%, #90C6FD 190.83%);
+z-index: -1;
+
+}
+.boxa{
+  margin-left: 650px;
+  margin-left: -600px;
+  height: 220px;
+}
+.kotakpojokku2{
+  z-index: 2;
+}
+.tulistengah{
+  padding-top: 10px;
+  font-size: 30px;
+  font-family: nunito sans;
+  font-weight: bold;
+  line-height: 0.3cm;
+  margin-left:-350px;
+  margin-top: -140px;
+}
+.tulisakhir{
+  padding-top: 10px;
+  font-size: 16px;
+  font-family: nunito sans;
+  font-weight: normal;
+  line-height: 0cm;
+  margin-left:70px;
+  margin-top: -60px;
+}
+.button9a{
+  color:#744fc6;
+    background:#744fc6;
+    padding: 7px 22px;
+    margin: 0 0 0 15px;
+    border-radius: 8px;
+    border:#744fc6;
+    font-family: sans-serif;
+    border: 1px solid #744FC6;
+    box-sizing: border-box;
+    color:#FFFFFF;
+}
+.button9
+{
+  padding-right:-900px;
+  padding-top: 300px;
+  margin-left:-70px ;
+  margin-top: -260px;
+}
+.depan{
+  position: absolute;
+  padding-top: 10px;
+  font-size: 30px;
+  font-family: nunito sans;
+  font-weight: bold;
+  line-height: 0.3cm;
+  margin-left:-100px;
+  margin-top: -160px;
+}
+.rt3
+{
+
+position: absolute;
+width: 169.72px;
+height: 171.41px;
+left: 82.42px;
+top: 100.96px;
+
+opacity: 0.15;
+border-radius: 30px;
+transform: matrix(-0.88, 0.47, 0.47, 0.88, 0, 0);
+
+}
+.rt2{
+position: absolute;
+width: 1920px;
+height: 685px;
+left: 0px;
+top: 1887px;
+margin-top: -940px;
+margin-left: -600px;
+
+background: #FFFFFF;
+}
+.boxedku123
+{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    left: 580px;
+    top: 580px;
+    
+    background:#FFFFFF;
+    box-shadow: 0px 9px 20px rgba(167, 167, 167, 0.4);
+    border-radius: 16px;
+    margin-left: -900px;
+    margin-top: 450px;
+    z-index: 1;
+}
+.gamabarke2{
+  position: absolute;
+  font-size: 14px;
+  font-family: nunito sans;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.gamabarke3{
+  position: absolute;
+  font-size: 18px;
+  font-family: nunito sans;
+  margin-top:40px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.gamabarke4{
+  position: relative;
+  font-size: 14px;
+  font-family: nunito sans;
+  margin-top: 120px;
+  margin-left: 20px;
+  font-weight: normal;
+  line-height: 0cm;
+}
+.gamabarke5{
+  font-size: 15px;
+  font-family: nunito sans;
+  margin-top: 70px;
+  margin-left: 380px;
+}
+.pagi{
+  position: absolute;
+  margin-left: 350px;
+  margin-top: -60px;
+}
+.bgkuya{
+margin-top: 150px;
+margin-left: -400px;}
+
+
+.tengah{
+    padding-top: 10px;
+    font-size: 70 px;
+    font-family: nunito sans;
+    font-weight: bold;
+    line-height: 0.3cm;
+    margin-left:250px;
+    margin-top: -400px;
+    position:relative;}
+  .bawah
+  {
+    position: relative;
+    padding-top: 10px;
+    font-size:14px;
+    font-family: nunito sans;
+    font-weight: normal;
+    line-height: 0.3cm;
+    margin-left:60px;
+    margin-top: 10px;
+  padding-left: 130px;
+  text-align: center;
+  }
+
+  .kotak1{
+    position: absolute;
+    width: 430px;
+    height: 40px;
+    background: #ffffff;
+    top: 390px;
+    left: 115px;
+    margin-top: 300px;
+    border-radius: 6px;
+    margin-left: -180px;
+    
+    
+    }
+    .boxku{
+      position: absolute;
+      width: 430px;
+      height: 40px;
+      background: #FFFFFF;
+      top: 390px;
+      left: 115px;
+      margin-top: 300px;
+      border-radius: 6px;
+      margin-left: 265px;
+      
+      }
+      .boxku1{
+        position: absolute;
+        width: 922px;
+        height: 100px;
+        background:#FFFFFF;
+        top: 390px;
+        left: 115px;
+        margin-top: 350px;
+        border-radius: 6px;
+        margin-left: -200px;
+        
+        }
+        .tulisanku1{
+          position:relative;
+          width: 67px;
+          height: 20px;
+          left: 432px;
+          top: 165px;
+          font-family: Nunito Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 20px;
+          display: flex;
+          color: #BDBDBD;
+          margin-top: -145px;
+          margin-left: -480px;
+          }
+          .tulisanku2{
+            position:relative;
+            width: 67px;
+            height: 20px;
+            left: 432px;
+            top: 165px;
+            font-family: Nunito Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            display: flex;
+            color: #BDBDBD;
+            margin-top: -20px;
+            margin-left: -40px;
+            }
+            .tulisanku3{
+              position: relative;
+              width: 67px;
+              height: 20px;
+              left: 432px;
+              top: 165px;
+              font-family: Nunito Sans;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 14px;
+              line-height: 20px;
+              display: flex;
+              color: #BDBDBD;
+              margin-top: 24px;
+              margin-left: -500px;
+              }
+              .button9a{
+                color:#744fc6;
+                  background:#744fc6;
+                  padding: 7px 22px;
+                  margin: 0 0 0 15px;
+                  border-radius: 8px;
+                  border:#744fc6;
+                  font-family: sans-serif;
+                  border: 1px solid #744FC6;
+                  box-sizing: border-box;
+                  color:#FFFFFF;
+                  margin-left: px;
+              }
+              .button9
+              {
+                padding-right:-900px;
+                padding-top: 300px;
+                margin-left:-509px ;
+                margin-top: -40px;
+              }
+  .stack2{
+  position: absolute;
+  top: 1150px;
+  left: -60px;
+  font-weight: bold;
+}
+.stack3{
+  position: absolute;
+  top: 1100px;
+  left: -60px;
+  font-weight: bold;
+}
+.karyaku2{
+  position: absolute;
+  top: 1250px;
+  left: -60px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.icona{
+  position: absolute;
+  top: 1350px;
+  left: -60px;
+}
+.iconb{
+  position: absolute;
+  top: 1350px;
+  left: -15px;
+}
+
+ .iconc{
+  position: absolute;
+  top: 1350px;
+  left: 30px;
+}
+.icond{
+  position: absolute;
+  top: 1350px;
+  left: 75px;
+}
+.textku{
+  position: absolute;
+  top: 1140px;
+  left: 300px;
+  font-weight: bold;
+  font-family: nonito sans;
+  font-size: 16px;
+}
+.baris1
+{
+  line-height: 0.2cm;
+  font-size: 14px;
+  font-family: nonito sans;
+  position: absolute;
+  top:1200px;
+  left: 300px;
+}
+.textku1{
+  position: absolute;
+  top:1140px;
+  left: 450px;
+  font-weight: bold;
+  font-family: nonito sans;
+  font-size: 16px;
+}
+.baris2
+{
+  line-height: 0.2cm;
+  font-size: 14px;
+  font-family: nonito sans;
+  position: relative;
+  top: 270px;
+  left: 450px;
+}
+.textku3{
+  position: absolute;
+  top: 1140px;
+  left: 700px;
+  font-weight: bold;
+  font-family: nonito sans;
+  font-size: 16px;
+}
+.baris3
+{
+  line-height: 0.2cm;
+  font-size: 14px;
+  font-family: nonito sans;
+  position: absolute;
+  top: 1200px;
+  left: 700px;
+}
+.boxdown{
+  position:relative;
+  top: 240px;
+  right: 1000px;
+  background: #838383;
+  margin-top: 5px;
+}
+.tulisanD{
+  position: relative;
+  right:40px;
+  top: 50px;
+  font-size: nunito sans;
+  font-size: 17px;
+  
+}
+
+          

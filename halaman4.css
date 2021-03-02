@@ -1,0 +1,459 @@
+body {
+    font-family: "Inconsolata", monospace;
+    color: #0d1e2d;
+    overflow-x: hidden;
+  }
+  
+  a {
+    color: #777;
+    text-decoration: none;
+   overflow-x: hidden;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .section {
+    padding: 7rem 0;
+  }
+  
+  .filters a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    font-family: nunito sans;
+    font-size: 16px;
+    left: -1;
+  }
+  
+  .filters a:hover, .filters a:focus, .filters a:active {
+    text-decoration: none;
+  }
+  
+  .filters a:hover:before {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    height: 1px;
+    background-color: #000;
+  }
+  
+  .filters a.active {
+    color: #000;
+  }
+  
+  .filters a.active:before {
+    position: absolute;
+    padding-left: 5px;
+    right: 10px;
+    bottom: 0;
+    height: 1px;
+    background-color: #000;
+  }
+  
+  .custom-navbar .navbar-brand {
+    font-size: 1.7rem;nav
+    font-family: Montserrat;
+  
+  }
+  .button{
+  
+  color:black;
+      background:white;
+      padding: 7px 22px;
+      margin: 0 0 0 15px;
+      border-radius: 8px;
+      border: 2px white;
+      transition: all ease-in-out 0.3s;
+      font-size: 13px;
+      white-space: nowrap;
+      z-index: 1;
+  }
+  .gambarpojok{
+  position: absolute;
+  left: 1000px;
+  right: -0.1%;
+  top:-100px;
+  bottom:none;
+  transform: rotate(-18.43deg);
+  }
+  .help
+  {
+    padding-top:40px;
+    font-family:sans-serif;
+    font-size:30px;
+    padding-left: 115px;
+    font-weight: bold;
+  }
+  .tulisan{
+    padding-left: 115px;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-top:-20px;
+  }
+  .buttona{
+    color:white;
+      background: #744FC6;
+      padding: 9px 15px;
+      margin: 0 0 0 15px;
+      border-radius: 8px;
+      border: 2px  #744FC6;
+      font-family: sans-serif;
+  }
+  .buttonb{
+    color:#744fc6;
+      background:#FFFFFF;
+      padding: 7px 22px;
+      margin: 0 0 0 15px;
+      border-radius: 8px;
+      border:#744fc6;
+      font-family: sans-serif;
+      border: 1px solid #744FC6;
+      box-sizing: border-box;
+  }
+  .button1
+  {
+    padding-left: 100px;
+    padding-top: 10px;
+  }
+  .bgku{
+  position: absolute;
+  width: 2577px;
+  height: 1849.86px;
+  left: -392px;
+  top: -1131.83px;
+  background: url(bgkulucu.png);
+  margin-top: -400px;
+  z-index: -2;
+  
+  }
+  .case
+  {
+    font-size: 30px;
+    font-family: nunito sans;
+    font-weight: bold;
+    margin-left:600px;
+    margin-top: -770px;
+    position: absolute;
+    padding-top: -500px;
+  }
+  .tugasku{
+      font-size: 14px;
+      font-family: nunito sans;
+      line-height: 0cm;
+      position: absolute;
+      margin-top: 100px;
+      margin-left: 400px;
+      margin-top: -660px;
+      text-align: center;
+  }
+  .boxedku10{
+  
+    position: absolute;
+    width: 900px;
+    height: 350px;
+    left: 580px;
+    top: 580px;
+    
+    background:#FFFFFF;
+    box-shadow: 0px 9px 20px rgba(167, 167, 167, 0.4);
+    border-radius: 16px;
+    margin-top: -350px;
+    margin-left:-330px;
+}
+.boxedku11{
+  
+  position: absolute;
+  width: 340px;
+  height: 40px;
+  left: 580px;
+  top: 580px;
+  
+  background:#FFFFFF;
+  box-shadow: 0px 9px 20px rgba(167, 167, 167, 0.4);
+  border-radius: 8px;
+  margin-top: -268px;
+  margin-left:-260px;
+}
+.boxedku12{
+  
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  left: 580px;
+  top: 580px;
+  
+  background:#FFFFFF;
+  box-shadow: 0px 9px 20px rgba(167, 167, 167, 0.4);
+  border-radius: 8px;
+  margin-top: -268px;
+  margin-left:100px;
+}
+.boxedku13{
+  
+  position: absolute;
+  width:800px;
+  height: 100px;
+  left: 580px;
+  top: 580px;
+  
+  background:#FFFFFF;
+  box-shadow: 0px 9px 20px rgba(167, 167, 167, 0.4);
+  border-radius: 16px;
+  margin-top: -220px;
+  margin-left:-260px;
+}
+.boxedku15{
+  
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  left: 580px;
+  top: 580px;
+  
+  background:#744FC6;
+  box-shadow: 0px 9px 20px rgba(167, 167, 167, 0.4);
+  border-radius: 8px;
+  margin-top: -100px;
+  margin-left:40px;
+}
+.kotak1{
+  position: absolute;
+  width: 380px;
+  height: 40px;
+  background: grey;
+  top: 390px;
+  left: 115px;
+  margin-top: -80px;
+  border-radius: 6px;
+  margin-left: 200px;
+}
+.kotak2{
+  position: absolute;
+  width: 380px;
+  height: 40px;
+  background: grey;
+  top: 390px;
+  left: 115px;
+  margin-top: -80px;
+  border-radius: 6px;
+  margin-left: 590px;
+}
+.boxku1{
+  position: absolute;
+  width: 800px;
+  height: 100px;
+  background:grey;
+  top: 390px;
+  left: 115px;
+  margin-top: -30px;
+  border-radius: 6px;
+  margin-left: 195px;
+}
+.tulisanku1{
+  position:absolute;
+  width: 67px;
+  height: 20px;
+  left: 432px;
+  top: 165px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  color: #BDBDBD;
+  margin-top: 155px;
+  }
+  .tulisanku2{
+    position:absolute;
+    width: 67px;
+    height: 20px;
+    left: 432px;
+    top: 165px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    color: #BDBDBD;
+    margin-top: 155px;
+    margin-right: px;
+    }
+    .tulisanku3{
+      position:absolute;
+      width: 67px;
+      height: 20px;
+      left: 432px;
+      top: 165px;
+      font-family: Nunito Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      display: flex;
+      color: #BDBDBD;
+      margin-top: 155px;
+      margin-right: px;
+      }
+     .imgku{
+      position: relative; 
+      margin-top: 500px;
+     }
+     .gambar01{
+       position: relative;
+       margin-top: -300px;
+       margin-left: 40px;
+     }
+     .gambar02{
+      position: relative;
+      margin-top: -300px;
+      margin-left: 500px;
+    }
+    .gambar03{
+      position: relative;
+      margin-top: -300px;
+      margin-left: 950px;
+    }
+    .gambar04{
+      position: relative;
+      margin-top:-720px;
+      margin-left: -300px;
+      width: 600px;
+      height: 400px;
+    }
+    .stack2{
+      position: absolute;
+      top: 1800px;
+      left: 130px;
+      font-weight: bold;
+    }
+    .stack3{
+      position: absolute;
+      top:1850px;
+      left: 130px;
+    }
+    .karyaku2{
+      position: absolute;
+      top: 1960px;
+      left: 130px;
+      font-family: sans-serif;
+      font-size: 12px;
+    }
+    .icona{
+      position: absolute;
+      top:2050px;
+      left: 130px;
+    }
+    .iconb{
+      position: absolute;
+      top: 2050px;
+      left: 170px;
+    }
+    
+     .iconc{
+      position: absolute;
+      top:2050px;
+      left: 210px;
+    }
+    .icond{
+      position: absolute;
+      top: 2050px;
+      left: 250px;
+    }
+    .textku{
+      position: absolute;
+      top: 1840px;
+      left: 500px;
+      font-weight: bold;
+      font-family: nonito sans;
+      font-size: 18px;
+    }
+    .baris1
+    {
+      line-height: 0.2cm;
+      font-size: 18px;
+      font-family: nonito sans;
+      position: absolute;
+      top: 1900px;
+      left: 500px;
+    }
+    .textku1{
+      position: absolute;
+      top: 1840px;
+      left: 690px;
+      font-weight: bold;
+      font-family: nonito sans;
+      font-size: 18px;
+    }
+    .baris2
+    {
+      line-height: 0.2cm;
+      font-size: 16px;
+      font-family: nonito sans;
+      position: absolute;
+      top: 1900px;
+      left: 690px;
+    }
+    .textku3{
+      position: absolute;
+      top: 1840px;
+      left: 990px;
+      font-weight: bold;
+      font-family: nonito sans;
+      font-size: 18px;
+    }
+    .baris3
+    {
+      line-height: 0.2cm;
+      font-size: 13px;
+      font-family: nonito sans;
+      position: absolute;
+      top: 1900px;
+      left: 990px;
+    }
+    .boxdown{
+      position: absolute;
+      top: 240px;
+      right: -180px;
+      background: #838383;
+      margin-top: 5px;
+    }
+    .tulisanD{
+      position: absolute;
+      right:350px;
+      top: 90px;
+      font-size: smaller;
+      font-size: 13;
+    }
+    .button9a{
+      color:#744fc6;
+        background:#744fc6;
+        padding: 7px 22px;
+        margin: 0 0 0 15px;
+        border-radius: 8px;
+        border:#744fc6;
+        font-family: sans-serif;
+        border: 1px solid #744FC6;
+        box-sizing: border-box;
+        color:#FFFFFF;
+        position: relative;
+    }
+    .button9
+    {
+      position: absolute;
+      padding-right:-900px;
+      padding-top: 300px;
+      margin-left:-210px ;
+      margin-top: -300px;
+    }
